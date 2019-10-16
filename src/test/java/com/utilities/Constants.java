@@ -6,4 +6,5 @@ public class Constants {
 	
 	public static String osName=System.getProperty("os.name");
 	
+	public static String emp_Name = "Jasmine Morgan";
 }

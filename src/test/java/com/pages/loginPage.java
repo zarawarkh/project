@@ -29,7 +29,7 @@ public class loginPage extends BaseClass {
 	}
 
 	@Test(priority=1)
-	public void login() {
+	public static void login() {
 		try {
 			Thread.sleep(1000);
 			WebElement userName = driver.findElement(By.xpath(Xpaths.userName));
