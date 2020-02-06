@@ -13,4 +13,7 @@ public class Xpaths {
 	public static String USERNAME_ROLE = "//select[@id= 'searchSystemUser_userType']";
 	public static String EMP_NAME = "//input[@id= 'searchSystemUser_employeeName_empName']";
 	
+	//Pim Page
+	public static String PIM = "//b[contains(text(), 'PIM')]";
+	
 }
