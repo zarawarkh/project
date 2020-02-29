@@ -10,7 +10,7 @@ import com.utilities.BaseClass;
 import com.utilities.CommonMethods;
 import com.xpaths.Xpaths;
 
-public class AdminPage extends BaseClass {
+public class Leave extends BaseClass{
 
 	@BeforeClass
 	public void lunchBrowser() {
@@ -22,9 +22,9 @@ public class AdminPage extends BaseClass {
 		try {
 			loginPage.login();
 			Thread.sleep(1000);
-			WebElement userName = driver.findElement(By.xpath(Xpaths.ADMIN));
+			WebElement userName = driver.findElement(By.xpath(Xpaths.LEAVE));
 			CommonMethods.click(userName);
-			System.out.println("Admin page successful");
+			System.out.println("Leave page successful");
 			
 		} catch (InterruptedException e) {
 			System.out.println(e);

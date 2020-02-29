@@ -2,6 +2,8 @@ package com.xpaths;
 
 public class Xpaths {
 
+	// Verify Logo
+	public static String LOGO = "//*[@id='divLogo']/img";
 	//login page
 	public static String userName = "//*[@id='txtUsername']";
 	public static String password = "//*[@id='txtPassword']";
@@ -15,5 +17,8 @@ public class Xpaths {
 	
 	//Pim Page
 	public static String PIM = "//b[contains(text(), 'PIM')]";
+	
+	public static String LEAVE = "//*[@id='menu_leave_viewLeaveModule']";
+	
 	
 }

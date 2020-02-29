@@ -24,7 +24,7 @@ public class PimPage extends BaseClass{
 			Thread.sleep(1000);
 			WebElement userName = driver.findElement(By.xpath(Xpaths.PIM));
 			CommonMethods.click(userName);
-			Thread.sleep(1000);
+			System.out.println("pim page successful");
 			
 		} catch (InterruptedException e) {
 			System.out.println(e);
