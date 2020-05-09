@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 import com.utilities.BaseClass;
 import com.utilities.CommonMethods;
-import com.xpaths.Xpaths;
 
 public class AdminPage extends BaseClass {
 

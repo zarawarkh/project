@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 import com.utilities.BaseClass;
 import com.utilities.CommonMethods;
-import com.xpaths.Xpaths;
 
 public class Leave extends BaseClass{
 
@@ -31,6 +30,9 @@ public class Leave extends BaseClass{
 			e.printStackTrace();
 		}
 
+	}
+	public void method() {
+		System.out.println("//just some code");
 	}
 	
 	@AfterClass

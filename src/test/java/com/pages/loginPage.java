@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import com.utilities.BaseClass;
 import com.utilities.CommonMethods;
 import com.utilities.Constants;
-import com.xpaths.Xpaths;
 
 public class loginPage extends BaseClass {
 

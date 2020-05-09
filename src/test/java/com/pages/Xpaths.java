@@ -1,4 +1,4 @@
-package com.xpaths;
+package com.pages;
 
 public class Xpaths {
 
