@@ -31,9 +31,6 @@ public class Leave extends BaseClass{
 		}
 
 	}
-	public void method() {
-		System.out.println("//just some code");
-	}
 	
 	@AfterClass
 	public void closeBrowser() {
