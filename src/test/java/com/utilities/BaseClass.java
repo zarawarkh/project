@@ -42,8 +42,7 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			if (Constants.osName.contains("Mac")) {
-				WebDriverBase.headlessSetup();
-				//System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Drivers\\geckodriver");
+				System.setProperty("webdriver.gecko.driver", "/Users/fnuzarawar/Downloads/chromedriver");
 			} else if (Constants.osName.contains("Windows")) {
 				System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Drivers\\geckodriver.exe");
 			}
