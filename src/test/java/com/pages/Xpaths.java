@@ -18,7 +18,11 @@ public class Xpaths {
 	//Pim Page
 	public static String PIM = "//b[contains(text(), 'PIM')]";
 	
+	//Leave page
 	public static String LEAVE = "//*[@id='menu_leave_viewLeaveModule']";
+	
+	//Time Page
+	public static String TIME = "//b[contains(text(), 'Time')]";
 	
 	
 }

@@ -34,14 +34,16 @@ public class BaseClass {
 		
 		if (browserName.equalsIgnoreCase("chrome")) {
 			if (Constants.osName.contains("Mac")) {
-				System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Drivers\\chromedriver");
+				//WebDriverBase.headlessSetup();
+				System.setProperty("webdriver.chrome.driver", "/Users/fnuzarawar/Downloads/chromedriver");
 			} else if (Constants.osName.contains("Windows")) {
 				System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\Drivers\\chromedriver.exe");
 			}
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			if (Constants.osName.contains("Mac")) {
-				System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Drivers\\geckodriver");
+				WebDriverBase.headlessSetup();
+				//System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Drivers\\geckodriver");
 			} else if (Constants.osName.contains("Windows")) {
 				System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\Drivers\\geckodriver.exe");
 			}
