@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.utilities.BaseClass;
 import com.utilities.CommonMethods;
 
-public class PimPage extends BaseClass{
+public class Recruitment extends BaseClass{
 
 	@BeforeClass
 	public void lunchBrowser() {
@@ -21,9 +21,9 @@ public class PimPage extends BaseClass{
 		try {
 			loginPage.login();
 			Thread.sleep(1000);
-			WebElement userName = driver.findElement(By.xpath(Xpaths.PIM));
+			WebElement userName = driver.findElement(By.xpath(Xpaths.RECRUITMENT));
 			CommonMethods.click(userName);
-			System.out.println("pim page successful");
+			System.out.println("Recruitment page successful");
 			
 		} catch (InterruptedException e) {
 			System.out.println(e);

@@ -15,19 +15,23 @@ import org.openqa.selenium.support.ui.Select;
 
 public class BaseClass {
 
+	//Global variables
 	public static Properties prop;
 	public static WebDriver driver;
 	
+	//This method reads properties file
 	public static void initProperties(String filePath) {
 
 		prop = new Properties();
 		try {
+			//this makes connection with file to be read
 			FileInputStream fis = new FileInputStream(filePath);
 			prop.load(fis);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
+	//This code will run scripts on windows and Mac plat forms
 	public static void setUp() {
 		initProperties(Constants.filePath);
 		String browserName = prop.getProperty("browser");
@@ -58,6 +62,7 @@ public class BaseClass {
 		driver.get(prop.getProperty("url"));
 	}
 
+	//This method will close browser
 	public static void tearDown() {
 		driver.quit();
 	}

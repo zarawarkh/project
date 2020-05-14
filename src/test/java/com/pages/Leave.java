@@ -16,7 +16,7 @@ public class Leave extends BaseClass{
 		BaseClass.setUp();
 	}
 	
-	@Test(priority=0)
+	@Test
 	public void login() {
 		try {
 			loginPage.login();

@@ -7,6 +7,7 @@
       <class name="com.pages.AdminPage"/>
       <class name="com.pages.PimPage"/>
       <class name="com.pages.Leave"/>
+      <class name="com.pages.Recruitment"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

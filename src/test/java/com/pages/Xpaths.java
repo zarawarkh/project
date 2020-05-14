@@ -24,5 +24,8 @@ public class Xpaths {
 	//Time Page
 	public static String TIME = "//b[contains(text(), 'Time')]";
 	
+	//Recruitment page
+	public static String RECRUITMENT = "//b[contains(text(),'Recruitment')]";
+	
 	
 }
